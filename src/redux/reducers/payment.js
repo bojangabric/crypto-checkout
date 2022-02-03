@@ -14,7 +14,6 @@ const payment = (
     case t.GET_CURRENCIES:
       return {
         ...state,
-        transaction: 'successful',
         currencies: action.payload
       };
     case t.SET_TOTAL:
